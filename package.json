@@ -1,0 +1,21 @@
+{
+  "name": "remote-svn",
+  "version": "1.0.0",
+  "description": "used to perform SVN commands without a local copy",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "test-remote": "./node_modules/mocha/bin/mocha \"test/remoteSvnClass.spec\" --bail",
+    "test-local": "./node_modules/mocha/bin/mocha \"test/localSvnClass.spec\" --bail"
+  },
+  "author": "gal.angel@ironsrc.com",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "node-svn-ultimate": "^1.1.0"
+  },
+  "devDependencies": {
+    "count-files": "^2.6.2",
+    "mocha": "^5.1.1"
+  }
+}
