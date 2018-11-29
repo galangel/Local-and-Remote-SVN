@@ -1,14 +1,14 @@
 {
   "name": "remote-svn",
   "version": "1.0.0",
-  "description": "used to perform SVN commands without a local copy",
+  "description": "Promise wrapped classes easy to use for making operations on SVN without risking locks and conflicts",
   "main": "index.js",
   "scripts": {
     "build": "npm install",
     "test-remote": "./node_modules/mocha/bin/mocha \"test/remoteSvnClass.spec\" --bail",
     "test-local": "./node_modules/mocha/bin/mocha \"test/localSvnClass.spec\" --bail"
   },
-  "author": "gal.angel@ironsrc.com",
+  "author": "gal0angel@gmail.com",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^5.0.0",
