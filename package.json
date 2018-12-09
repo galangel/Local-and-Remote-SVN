@@ -1,12 +1,12 @@
 {
   "name": "remote-svn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise wrapped classes easy to use for making operations on SVN without risking locks and conflicts",
   "main": "index.js",
   "scripts": {
     "build": "npm install",
-    "test-remote": "./node_modules/mocha/bin/mocha \"test/remoteSvnClass.spec\" --bail",
-    "test-local": "./node_modules/mocha/bin/mocha \"test/localSvnClass.spec\" --bail"
+    "test-remote": "mocha \"test/remoteSvnClass.spec\" --bail",
+    "test-local": "mocha \"test/localSvnClass.spec\" --bail"
   },
   "author": "gal0angel@gmail.com",
   "license": "ISC",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "count-files": "^2.6.2",
+    "dotenv": "^6.2.0",
     "mocha": "^5.1.1"
   }
 }
