@@ -68,7 +68,7 @@ svnmucc put _localPath_ _remotePath_
 
 ## Running the tests
 
-Edit the tests, fill in missing details
+Edit the .env file , fill in missing details
 Use mocah ( installed globaly using npm i -g mocha)
 or use  "npm run test-remote"
 or use  "npm run test-local"
