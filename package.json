@@ -1,6 +1,6 @@
 {
   "name": "remote-svn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promise wrapped classes easy to use for making operations on SVN without risking locks and conflicts",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
   },
   "author": "gal0angel@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galangel/Local-and-Remote-SVN.git"
+  },
+  "homepage": "https://github.com/galangel/Local-and-Remote-SVN",
   "dependencies": {
     "fs-extra": "^5.0.0",
     "node-svn-ultimate": "^1.1.0"

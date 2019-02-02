@@ -58,46 +58,36 @@ await testSvn.deleteFiles({filePaths:[testFiles[0],testFiles[1]],message:commitM
 ```
 
 ### Prerequisites
-
 must have svn v1.8 or later installed, one of the packages relay on svnmucc which is included
-in said version
+in that version
 
 ```
 svnmucc put _localPath_ _remotePath_
 ```
 
 ## Running the tests
-
 Edit the .env file , fill in missing details
 Use mocah ( installed globaly using npm i -g mocha)
 or use  "npm run test-remote"
 or use  "npm run test-local"
 
 ### Break down into end to end tests
-
 you can take example from the tests on how to get/add/remove a file and commit
 
 
 ## Built With
-
 * [node-svn-ultimate](https://www.npmjs.com/package/node-svn-ultimate) - SVN wrapper for node
 * [fs-extra](https://www.npmjs.com/package/fs-extra) - file system methods
 * [count-files](https://www.npmjs.com/package/count-files) - Count files, directories, and bytes in a directory recursively.
 * [mocha](https://www.npmjs.com/package/mocha) - Simple, flexible, fun JavaScript test framework for Node.js & The Browser.
 
 
-
-
 ## Authors
-
-* **Gal Angel** - *Initial work* - [Full Stack Developer](gal0angel@gmail.com)
-
+* **[Gal Angel](gal0angel@gmail.com)**
 
 ## License
-
-This project is owned by IronSource
+[GNUv3](/LICENCE.md)
 
 ## Acknowledgments
-
 * stackOverflow
 * coffee
